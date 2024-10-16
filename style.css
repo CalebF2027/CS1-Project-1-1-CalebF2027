@@ -1,1 +1,53 @@
+/* General page styles */
+body {
+    background-color: rgb(111, 984, 255);
+}
 
+h1 {
+    background-color: rgb(111, 984, 255);
+    font-family: fantasy;
+    font-weight: 300;
+    background-color: rgb(29, 237, 237);
+    border-style: dashed;
+    border-width: 10px;
+    text-align: center;
+    border-color: plum;
+}
+h2 {
+    text-align: center;
+    font-family: fantasy;
+    border-style: dashed;
+    border-width: 15px;
+    border-color: plum
+}
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: goldenrod;
+    font-style: initial;
+    font-weight: 1000;
+    background-color: greenyellow;
+}
+li {
+    font-weight: 1000;
+    font-family: fantasy;
+    color: rgba(122, 11, 226, 0.654);
+    background-color: rgb(231, 231, 243);
+}
+h5 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+p {
+    font-family: fantasy
+}
+hr {
+    border-width: 5px;
+    border-color: plum;
+    border-style: dashed;
+
+}
+img {
+    border-width: 10px;
+    border-style: dashed;
+    border-color: green;
+}
