@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 /* General page styles */
 body {
     background-color: rgb(111, 984, 255);
+    background-color: thistle;
+    font-family: "Bebas Neue";
 }
 
 h1 {
+    margin: aito;
     background-color: rgb(111, 984, 255);
     font-family: fantasy;
     font-weight: 300;
@@ -14,6 +19,7 @@ h1 {
     border-color: plum;
 }
 h2 {
+    margin: auto;
     text-align: center;
     font-family: fantasy;
     border-style: dashed;
@@ -32,13 +38,15 @@ li {
     font-family: fantasy;
     color: rgba(122, 11, 226, 0.654);
     background-color: rgb(231, 231, 243);
+    text-shadow: #FC0 1px 0 10px;
 }
 h5 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
 }
 p {
-    font-family: fantasy
+    background-color: orange;
+    font-family: "Cherry Bomb One";
 }
 hr {
     border-width: 5px;
@@ -50,4 +58,9 @@ img {
     border-width: 10px;
     border-style: dashed;
     border-color: green;
+    
+}
+.centered {
+    text-align: center;
+    margin: auto;
 }
